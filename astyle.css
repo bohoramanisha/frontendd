@@ -1,0 +1,43 @@
+*{
+    margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+   height: 123px;
+}
+body{
+    margin:100px;
+    padding: 200px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.resturant{
+  padding: 12px;
+  height: 20px;
+  width: 30px;
+  margin-bottom:25px;
+  margin-inline: auto;
+}
+.about{
+    text-align: center;
+    padding: 50px;
+    margin: 70px;
+    border: 60px;
+    display:flex;
+   justify-content:center;
+   object-fit: cover;
+   flex-direction: row;
+}
+ h2{
+    text-align: center;
+}
+.content{
+   flex:1;
+   flex-direction: row;
+   display: flex;
+   gap:20px;
+   justify-content: baseline;
+}
